@@ -1,4 +1,4 @@
-package com.example.contentproviders.model;
+package com.example.AppFood.model;
 
 import java.io.Serializable;
 

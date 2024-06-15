@@ -1,4 +1,4 @@
-package com.example.contentproviders;
+package com.example.AppFood;
 
 import org.junit.Test;
 

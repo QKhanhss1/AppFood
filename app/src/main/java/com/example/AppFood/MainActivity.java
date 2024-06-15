@@ -1,4 +1,4 @@
-package com.example.contentproviders;
+package com.example.AppFood;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void Xulymomanhinhdanhba() {
         Intent intent = new Intent(MainActivity.this,Danhba.class);
-        intent.setClassName("com.example.contentproviders","com.example.contentproviders.Danhba");
+        intent.setClassName("com.example.AppFood","com.example.AppFood.Danhba");
         startActivity(intent);
     }
 }

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.contentproviders"
+    namespace = "com.example.AppFood"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.contentproviders"
+        applicationId = "com.example.AppFood"
         minSdk = 25
         targetSdk = 34
         versionCode = 1

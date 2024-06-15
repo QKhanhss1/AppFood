@@ -1,4 +1,4 @@
-package com.example.contentproviders;
+package com.example.AppFood;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -13,7 +13,7 @@ import android.widget.ListView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.contentproviders.model.Contact;
+import com.example.AppFood.model.Contact;
 
 import java.util.ArrayList;
 
