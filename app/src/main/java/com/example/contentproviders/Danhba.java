@@ -18,7 +18,7 @@ import com.example.contentproviders.model.Contact;
 import java.util.ArrayList;
 
 public class Danhba extends AppCompatActivity {
-
+//tao lam duoc roi
     private static final int REQUES_CODE_ASK_PERMISSION = 1001;
     ListView lvdanhba;
     ArrayList<Contact> dsDanhBa;
