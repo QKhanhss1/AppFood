@@ -20,7 +20,6 @@
                 
             </intent-filter>
         </activity>
-        <activity android:name=".Danhba" android:exported="true"/>
     </application>
 
 </manifest>

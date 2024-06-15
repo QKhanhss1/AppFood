@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_gravity="center_vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
-    android:layout_width="wrap_content"
-    android:id="@+id/btn1"
-    android:layout_gravity="center_horizontal"
-    android:text="Đọc tên trong danh bạ"
-    android:layout_height="wrap_content">
-    </androidx.appcompat.widget.AppCompatButton>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/title_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="229dp"
+        android:layout_height="59dp"
+        android:fontFamily="monospace"
+        android:text="Lập trình thiết bị di động Nhóm 4"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FDFDFD"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.747" />
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
