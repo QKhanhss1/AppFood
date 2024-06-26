@@ -15,8 +15,6 @@ android {
         versionName = "1.0"
         vectorDrawables.useSupportLibrary = true
 
-
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -36,7 +34,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.firebase.analytics)
@@ -50,8 +47,7 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-
-    // extra dependencies
+    // Extra dependencies
     implementation("com.squareup.retrofit2:retrofit:2.6.1")
     implementation("com.squareup.retrofit2:converter-gson:2.6.1")
     implementation("com.google.android.material:material:1.1.0")
@@ -59,14 +55,15 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment:2.3.0")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("com.squareup.picasso:picasso:2.71828")
-    implementation("com.cepheuen.elegant-number-button:lib:1.0.2")
     implementation("androidx.recyclerview:recyclerview:1.1.0")
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.11.0")
-    implementation("com.firebaseui:firebase-ui-database:6.2.1")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.11.0")
     implementation("com.github.bumptech.glide:glide:4.11.0")
-    implementation("com.theartofdev.edmodo:android-image-cropper:2.3.+")
     implementation("androidx.navigation:navigation-ui:2.3.0")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    implementation("com.hbb20:ccp:2.3.1")
+    implementation("com.hbb20:ccp:2.6.1")
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("com.firebaseui:firebase-ui-database:8.0.2")
+//    implementation("com.cepheuen.elegant-number-button:lib:1.0.2")
+//    implementation("com.theartofdev.edmodo:android-image-cropper:2.8.0")
+
 }

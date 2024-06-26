@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="cursive"
             android:padding="20dp"
-            android:text="Eat Homemade Anywhere !"
+            android:text="Ăn ở bất cứ đâu bạn muốn!"
             android:textAlignment="center"
             android:textColor="#070707"
             android:textSize="18sp" />
@@ -57,7 +57,7 @@
             android:background="@drawable/btnred"
             android:drawableLeft="@drawable/whitemail"
             android:paddingLeft="10dp"
-            android:text="SigIn with Email"
+            android:text="đăng nhập bằng Email"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -70,7 +70,7 @@
             android:drawableLeft="@drawable/phonewhite"
             android:gravity="center"
             android:paddingLeft="10dp"
-            android:text="SignIn with Phone"
+            android:text="Đăng nhập bằng Điẹn thoại"
             android:textColor="#FFFFFF" />
 
         <LinearLayout
@@ -95,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="7dp"
-                android:text="OR"
+                android:text="Hoặc"
                 android:textAlignment="center"
                 android:textColor="#090909"
                 android:textSize="17sp" />
@@ -116,7 +116,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:background="@drawable/button_shape"
-            android:text="Signup"
+            android:text="đăng kí"
             android:textColor="#FFFFFF" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
